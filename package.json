@@ -21,6 +21,7 @@
   "type": "module",
   "homepage": "https://github.com/VanHadsoN/frontend-project-44#readme",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "readline-sync": "^1.4.10"
   }
 }
