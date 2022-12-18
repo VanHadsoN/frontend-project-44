@@ -8,3 +8,10 @@ for start:
 brain-even
 ```
 [![asciicast](https://asciinema.org/a/4kKdhOoeQsF2f7dJ6qLOr0H72.svg)](https://asciinema.org/a/4kKdhOoeQsF2f7dJ6qLOr0H72)
+## brain-calc demonstration:
+### What is the result of the expression?
+for start:
+```
+brain-calc
+```
+[![asciicast](https://asciinema.org/a/eKHu7X0r6aFlhtVUvuM6qep57.svg)](https://asciinema.org/a/eKHu7X0r6aFlhtVUvuM6qep57)
