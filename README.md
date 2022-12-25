@@ -15,3 +15,10 @@ for start:
 brain-calc
 ```
 [![asciicast](https://asciinema.org/a/eKHu7X0r6aFlhtVUvuM6qep57.svg)](https://asciinema.org/a/eKHu7X0r6aFlhtVUvuM6qep57)
+## brain-gcd demonstration:
+### Find the greatest common divisor of two numbers
+for start:
+```
+brain-gcd
+```
+[![asciicast](https://asciinema.org/a/5hlRGTshfG3t92j6g84J8R2sB.svg)](https://asciinema.org/a/5hlRGTshfG3t92j6g84J8R2sB)
