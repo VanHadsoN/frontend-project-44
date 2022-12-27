@@ -22,3 +22,10 @@ for start:
 brain-gcd
 ```
 [![asciicast](https://asciinema.org/a/5hlRGTshfG3t92j6g84J8R2sB.svg)](https://asciinema.org/a/5hlRGTshfG3t92j6g84J8R2sB)
+## brain-progression demonstration:
+### Insert missing number
+for start:
+```
+brain-progression
+```
+[![asciicast](https://asciinema.org/a/IlRYeyj5586Ao3uzCz3GbCks9.svg)](https://asciinema.org/a/IlRYeyj5586Ao3uzCz3GbCks9)
