@@ -29,3 +29,17 @@ for start:
 brain-progression
 ```
 [![asciicast](https://asciinema.org/a/IlRYeyj5586Ao3uzCz3GbCks9.svg)](https://asciinema.org/a/IlRYeyj5586Ao3uzCz3GbCks9)
+## brain-gcd demonstration:
+### Find the greatest common divisor of two numbers
+for start:
+```
+brain-gcd
+```
+[![asciicast](https://asciinema.org/a/5hlRGTshfG3t92j6g84J8R2sB.svg)](https://asciinema.org/a/5hlRGTshfG3t92j6g84J8R2sB)
+## brain-prime demonstration:
+### Is the number prime?
+for start:
+```
+brain-prime
+```
+[![asciicast](https://asciinema.org/a/VkffnuZvXI9wDtIZsz37aY9jo.svg)](https://asciinema.org/a/VkffnuZvXI9wDtIZsz37aY9jo)
