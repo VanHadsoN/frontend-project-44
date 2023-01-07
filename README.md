@@ -7,7 +7,7 @@
 #### Mind Games: 5 games for brain productivity (Even Check, Calculator, Find greatest common divisor, Arithmetic Progression and Prime Number)
 ### Minimum requirements:
 ```
-Node.js 13+
+Node.js 18+
 ```
 ### Installation:
 ```
