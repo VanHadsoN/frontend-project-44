@@ -1,4 +1,4 @@
-import getRandomNumber from '../additionalСontent/randomNumber.js';
+import getRandomNumber from '../helpers/randomNumber.js';
 import gameRounds from '../index.js';
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no".';
