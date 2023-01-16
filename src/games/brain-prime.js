@@ -2,6 +2,8 @@ import getRandomNumber from '../helpers/randomNumber.js';
 import gameRounds from '../index.js';
 
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+const minNumber = 2;
+const maxNumber = 100;
 
 const isPrime = (number) => {
   if (number < 2) {
@@ -17,7 +19,7 @@ const isPrime = (number) => {
   return true;
 };
 const getRoundData = () => {
-  const userQuestion = getRandomNumber(2, 100);
+  const userQuestion = getRandomNumber(minNumber, maxNumber);
   const correctAnswer = isPrime(userQuestion) ? 'yes' : 'no';
   return[userQuestion, correctAnswer];
 };
