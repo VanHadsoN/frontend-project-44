@@ -3,8 +3,10 @@ import gameRounds from '../index.js';
 
 const description = 'What is the result of the expression? ';
 const operations = ['+', '-', '*'];
-const num1 = getRandomNumber(1, 20);
-const num2 = getRandomNumber(1, 20);
+const minOperand = 1;
+const maxOperand = 20;
+const num1 = getRandomNumber(minOperand, maxOperand);
+const num2 = getRandomNumber(minOperand, maxOperand);
 
 const calculate = (num1, operator, num2) => {
   switch (operator) {
