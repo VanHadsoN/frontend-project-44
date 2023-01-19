@@ -5,8 +5,6 @@ const description = 'What is the result of the expression? ';
 const operations = ['+', '-', '*'];
 const minOperand = 1;
 const maxOperand = 20;
-const num1 = getRandomNumber(minOperand, maxOperand);
-const num2 = getRandomNumber(minOperand, maxOperand);
 
 const calculate = (num1, operator, num2) => {
   switch (operator) {
@@ -22,6 +20,8 @@ const calculate = (num1, operator, num2) => {
 };
 
 const getRoundData = () => {
+  const num1 = getRandomNumber(minOperand, maxOperand);
+  const num2 = getRandomNumber(minOperand, maxOperand);
   const operator = operations[getRandomNumber(0, (operations.length - 1))];
   const question = `${num1} ${operator} ${num2}`;
   const rightAnswer = String(calculate(num1, operator, num2));
