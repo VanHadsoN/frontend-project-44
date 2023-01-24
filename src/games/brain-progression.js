@@ -19,13 +19,11 @@ function generateProgression(firstItem, step, length) {
 }
 
 const getRoundData = () => {
-  const minIndex = 0;
-  const maxIndex = maxLength - 1;
   const first = getRandomNumber(minStart, maxStart);
   const step = getRandomNumber(minStep, maxStep);
   const length = getRandomNumber(minLength, maxLength);
   const progression = generateProgression(first, step, length);
-  const randomIndex = getRandomNumber(minIndex, maxIndex);
+  const randomIndex = Math.floor(Math.random() * progression.length);
 
   const correctAnswer = `${progression[randomIndex]}`;
   progression[randomIndex] = '..';
