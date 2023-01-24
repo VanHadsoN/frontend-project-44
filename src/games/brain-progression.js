@@ -20,7 +20,7 @@ function generateProgression(firstItem, step, length) {
 
 const getRoundData = () => {
   const minIndex = 0;
-  const maxIndex = 9;
+  const maxIndex = maxLength - 1;
   const first = getRandomNumber(minStart, maxStart);
   const step = getRandomNumber(minStep, maxStep);
   const length = getRandomNumber(minLength, maxLength);
