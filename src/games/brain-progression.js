@@ -1,5 +1,4 @@
 import getRandomNumber from '../helpers/randomNumber.js';
-import getRandomIndex from '../helpers/randomIndex.js';
 import gameRounds from '../index.js';
 
 const description = 'What number is missing in the progression?';
@@ -9,6 +8,8 @@ const minStep = 2;
 const maxStep = 10;
 const minStart = 1;
 const maxStart = 10;
+const minIndex = 1;
+const maxIndex = 10;
 
 function generateProgression(firstItem, step, length) {
   const array = [];
@@ -24,7 +25,7 @@ const getRoundData = () => {
   const step = getRandomNumber(minStep, maxStep);
   const length = getRandomNumber(minLength, maxLength);
   const progression = generateProgression(first, step, length);
-  const randomIndex = getRandomIndex(progression);
+  const randomIndex = getRandomNumber(minIndex, maxIndex);
 
   const correctAnswer = `${progression[randomIndex]}`;
   progression[randomIndex] = '..';
